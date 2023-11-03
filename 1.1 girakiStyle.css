@@ -1,0 +1,462 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Hind+Siliguri:wght@300&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    background-color: gray;
+}
+header{
+    height: 80px;
+    width: 100%;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    color: #F1F1F1;
+}
+header img{
+    width: 120px;
+    height: 80px;
+}
+header .head-loc{
+    display: flex;
+    height: fit-content;
+    width: 300px;
+}
+.head-loc span{
+    font-size: 30px;
+}
+.loc-name p{
+    font-family: 'Gabarito', cursive;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0;
+}
+.loc-name h5{
+    font-family: "Hind",sans-serif;
+    font-size: 15px;
+}
+.flag{
+    display: flex;
+    align-items: center;
+}
+.flag img{
+    height: 15px;
+    width: 20px;
+    position: relative;
+    bottom: 3px;
+}
+.sign-in{
+    height: fit-content;
+    width: 150px;
+}
+.sign-in p{
+    font-family: 'Gabarito', cursive;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0;
+}
+.sign-in h5{
+    font-family: "Hind",sans-serif;
+    font-size: 15px;
+}
+.title{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(108,51,10);
+    text-align: center;
+}
+.title a{
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 20px;
+    padding: 3px 20px;
+    position: relative;
+    top: 5px;
+}
+.title a:hover{
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+}
+.home{
+    height: fit-content;
+    width: 80%;
+    background-color: gainsboro;
+    margin: auto;
+}
+.product-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 200px;
+}
+.carousel-control-next-icon{
+    position: relative;
+    bottom: 150px;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    bottom: 150px;
+}
+.television{
+    height: 550px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    margin-top: 20px;
+    border-color: whitesmoke;
+}
+.tele-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tele-items img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.tele-items p{
+    height: 20px;
+    width: 130px;
+    font-size: 12px;
+}
+.television a{
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+.television1{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    margin-top: 220px;
+    border-color: rgb(221, 203, 203);
+}
+.tele-items0{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tele-items0 img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.tele-items0 p{
+    height: 20px;
+    width: 130px;
+    font-size: 12px;
+}
+.television1 a{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.mobiles {
+    height: 320px;
+    width: 1210px;
+    margin-top: 10px;
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+  
+.mobiles img {
+    margin-top: 30px;
+    padding: 10px;
+  }
+.scroll1{
+    height: 300px;
+    width: 1210px;
+    background-color: white;
+    margin-top: 10px;
+}
+.scroll img{
+    height: 270px;
+    width: 1200px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.curve{
+    height: 350px;
+    width: 1210px;
+    margin-top: 10px;
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+.curve img {
+    margin-top: 40px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.trending {
+    height: 350px;
+    width: 1210px;
+    margin-top: 10px;
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+.trending img {
+    margin-top: 20px;
+    padding: 10px;
+}
+.television2{
+    height: 480px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    margin-top: 220px;
+    border-color: rgb(221, 203, 203);
+}
+.tele-items01{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tele-items01 img{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.tele-items01 p{
+    height: 20px;
+    width: 130px;
+    font-size: 12px;
+}
+.television2 a{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+.deals {
+    height: 350px;
+    width: 1210px;
+    margin-top: 10px;
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+  }
+.deals img {
+    margin-top: 20px;
+    padding: 10px;
+}
+.deals1 {
+    margin-top: -230px;
+    margin-left: 180px;
+}
+.deals2 {
+    margin-top: -230px;
+    margin-left: 360px;
+}
+.deals3 {
+    margin-top: -230px;
+    margin-left: 540px;
+}
+.deals4 {
+    margin-top: -230px;
+    margin-left: 720px;
+}
+.deals5 {
+    margin-top: -230px;
+    margin-left: 900px;
+}
+.deals6 {
+    margin-top: -230px;
+    margin-left: 1080px;
+}
+.deals7 {
+    margin-top: -230px;
+    margin-left: 1260px;
+}
+.deals8 {
+    margin-top: -230px;
+    margin-left: 1440px;
+}
+.deals9 {
+    margin-top: -230px;
+    margin-left: 1650px;
+}
+.deals01 {
+    margin-top: -230px;
+    margin-left: 1820px;
+}
+.deals02 {
+    margin-top: -230px;
+    margin-left: 2000px;
+}
+.deals03 {
+    margin-top: -230px;
+    margin-left: 2160px;
+}
+.deals04 {
+    margin-top: -230px;
+    margin-left: 2320px;
+}
+.deals05 {
+    margin-top: -230px;
+    margin-left: 2480px;
+}
+.deals06 {
+    margin-top: -230px;
+    margin-left: 2650px;
+} 
+.deals07 {
+    margin-top: -230px;
+    margin-left: 2820px;
+}
+.deals08 {
+    margin-top: -230px;
+    margin-left: 2980px;
+}
+.tele3{
+    height: 430px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    margin-top: 220px;
+    border-color: rgb(221, 203, 203);
+}
+.tele-items001{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.tele3 h5 span{
+    background-color: red;
+    margin-top: 10px;
+}
+.tele-items1 img{
+    margin-top: 20px;
+}
+.tele4 {
+    height: 430px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(221, 203, 203);
+}
+.tele4 h5 span{
+    background-color: red;
+}
+.tele5 {
+    height: 430px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(221, 203, 203);
+}
+.tele5 h5 span{
+    background-color: red;
+}
+.tele6 {
+    height: 430px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(221, 203, 203);
+}
+.tele6 h5 span{
+    background-color: red;
+}
+.tele7 {
+    height: 430px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(221, 203, 203);
+}
+.tele7 h5 span{
+    background-color: red;
+}
+.btn-toolbar{
+    margin-top: -300px;
+    background-color: whitesmoke;
+}
+.btn-toolbar{
+    align-items: center;
+}
+.top {
+    height: 80px;
+    width: 1215px;
+    margin-top: -130px;
+    background-color: #2C4C60;
+}
+.top1 {
+    height: 430px;
+    width: 1215px;
+    background-color: #1E3A4C;
+    margin: -24px;
+}
+.top0 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.top01 {
+    margin-left: 350px;
+    margin-top: -190px;
+}
+.top02 {
+    margin-left: 550px;
+    margin-top: -150px;
+}
+.top03 {
+    margin-left: 850px;
+    margin-top: -350px;
+}
+.top2 {
+    height: 130px;
+    width: 1215px;
+    background-color: #1E3A4C;
+    margin: 25px;
+}
+.top2 img{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.choose{
+    margin-top: -250px;
+    margin-left: 100px;
+}
+.con {
+    margin-top: -110px;
+}
+.last{
+    margin: -23px;
+    height: 300px;
+    width: 1215px;
+    background-color: #11222d;
+}
+.last p {
+    -webkit-text-fill-color: rgb(167, 161, 161);
+}
+.last0 {
+    margin-left: 130px;
+    margin-top: 10px;
+}
+.last1 {
+    margin-left: 380px;
+    margin-top: -200px;
+}
+.last2 {
+    margin-left: 680px;
+    margin-top: -200px;
+}
+.last3 {
+    margin-left: 950px;
+    margin-top: -200px;
+}
+.last4 {
+    margin-left: 400px;
+}
+.last5 {
+    margin-left: 450px;
+}
